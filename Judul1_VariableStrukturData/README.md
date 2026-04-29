@@ -142,3 +142,4 @@ Untuk fitur perhitungan saldo, sistem akan membaca seluruh transaksi yang tersim
 Selain itu, program juga sudah dilengkapi dengan penanganan kesalahan input. Jika pengguna memasukkan data yang tidak sesuai, program akan menampilkan pesan kesalahan tanpa menghentikan jalannya program, sehingga tetap bisa digunakan dengan normal.
 
 # E. Link Youtube
+https://youtu.be/PDt_FSGFrUQ
