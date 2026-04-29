@@ -4,7 +4,7 @@ Sistem Transaksi E-Wallet Berbasis Vector (Dynamic Array)
 
 # B. Deskripsi Singkat
 
-Program ini merupakan implementasi sistem sederhana yang digunakan untuk mencatat riwayat transaksi pada dompet digital (e-wallet). Pengguna dapat menambahkan transaksi (pemasukan atau pengeluaran), melihat riwayat transaksi, mengubah data transaksi, menghapus transaksi, serta menghitung saldo akhir berdasarkan seluruh data yang tersimpan.
+Program ini merupakan implementasi sistem  yang digunakan untuk  transaksi pada E-Wallet. Pengguna dapat menambahkan transaksi (pemasukan atau pengeluaran), melihat riwayat transaksi, mengubah data transaksi, menghapus transaksi, serta menghitung saldo akhir berdasarkan seluruh data yang tersimpan.
 
 Struktur data yang digunakan dalam program ini adalah Vector (Dynamic Array) yang diimplementasikan secara manual menggunakan Python. Vector memungkinkan penyimpanan data yang bersifat dinamis, di mana kapasitas memori dapat bertambah secara otomatis ketika jumlah data melebihi kapasitas awal. Operasi utama yang diterapkan meliputi insert (push_back), delete, update (set), dan access (get) dengan kompleksitas waktu yang sesuai karakteristik dynamic array.
 
@@ -126,45 +126,19 @@ saldo = 0: Digunakan untuk menginisialisasikan saldo.
 <img width="263" height="202" alt="Screenshot 2026-04-29 223647" src="https://github.com/user-attachments/assets/60e8fd4d-e1a2-4cd1-9036-3ca10f24c64f" />
 <img width="307" height="195" alt="Screenshot 2026-04-29 223657" src="https://github.com/user-attachments/assets/b8419ac7-17b9-4928-be6e-e534dbb76eea" />
 
+# Penjelasan Output
+Output dari program ini menunjukkan bagaimana sistem transaksi dompet digital bekerja melalui interaksi langsung dengan pengguna. Ketika program dijalankan, tampilan awal yang muncul adalah menu utama yang berisi beberapa pilihan, seperti menambahkan transaksi, melihat riwayat, mengedit data, menghapus data, menghitung saldo, hingga keluar dari program. Menu ini akan terus ditampilkan karena program menggunakan perulangan, sehingga pengguna bisa melakukan beberapa operasi sekaligus tanpa perlu menjalankan ulang program.
 
+Saat pengguna memilih untuk menambahkan transaksi, sistem akan meminta beberapa data seperti jenis transaksi (masuk atau keluar), jumlah uang, serta keterangan tambahan. Setelah semua data diinput, program akan memberikan notifikasi bahwa transaksi berhasil disimpan. Data tersebut kemudian dimasukkan ke dalam vector, yang dapat menyesuaikan kapasitasnya secara otomatis jika data yang disimpan semakin banyak. 
 
+Ketika pengguna ingin melihat riwayat transaksi, sistem akan menampilkan seluruh data yang sudah tersimpan secara berurutan berdasarkan indeks. Informasi yang ditampilkan meliputi nomor urut, jenis transaksi, jumlah uang, dan keterangan. Jika belum ada data yang tersimpan, program akan memberikan informasi bahwa data masih kosong, sehingga pengguna tidak kebingungan.
 
+Pada fitur pengeditan data, pengguna dapat memilih transaksi tertentu berdasarkan indeks, lalu menggantinya dengan data yang baru. Setelah proses ini selesai, program akan menampilkan pesan bahwa data berhasil diperbarui. Perubahan ini langsung diterapkan pada data yang ada tanpa memengaruhi jumlah total data.
 
-🖥️ Contoh Output
-=== E-WALLET HISTORY ===
-1. Tambah Transaksi
-2. Lihat Riwayat
-3. Edit Transaksi
-4. Hapus Transaksi
-5. Hitung Saldo
-6. Keluar
+Sementara itu, pada fitur penghapusan, pengguna dapat menghapus data transaksi tertentu. Setelah data dihapus, sistem akan memberikan notifikasi bahwa penghapusan berhasil dilakukan. data setelah posisi yang dihapus akan bergeser ke depan agar susunan data tetap rapi, dan jumlah data dalam vector akan berkurang.
 
-Pilih: 1
-Tipe: masuk
-Jumlah: 100000
-Keterangan: gaji
+Untuk fitur perhitungan saldo, sistem akan membaca seluruh transaksi yang tersimpan, kemudian menjumlahkan semua transaksi yang bersifat pemasukan dan mengurangi transaksi pengeluaran. Hasil akhirnya akan ditampilkan sebagai saldo saat ini. Dari sini terlihat bahwa program tidak hanya menyimpan data, tetapi juga mampu mengolah data tersebut menjadi informasi yang berguna.
 
-Pilih: 1
-Tipe: keluar
-Jumlah: 25000
-Keterangan: makan
+Selain itu, program juga sudah dilengkapi dengan penanganan kesalahan input. Jika pengguna memasukkan data yang tidak sesuai, program akan menampilkan pesan kesalahan tanpa menghentikan jalannya program, sehingga tetap bisa digunakan dengan normal.
 
-Pilih: 2
-=== RIWAYAT TRANSAKSI ===
-0. [masuk] Rp100000 - gaji
-1. [keluar] Rp25000 - makan
-
-Pilih: 5
-Saldo saat ini: Rp75000
-🧾 Penjelasan Output
-Program berhasil menerima input transaksi
-Data tersimpan dalam vector
-Riwayat transaksi ditampilkan sesuai input
-Perhitungan saldo:
-100000 (masuk)
--25000 (keluar)
-total = 75000
-Tidak terjadi error → program berjalan dengan baik
-🔥 Kesimpulan Singkat (Opsional untuk Penutup)
-
-Program ini membuktikan bahwa struktur data Vector (dynamic array) dapat digunakan untuk membangun sistem riil seperti pencatatan transaksi. Kelebihan utamanya adalah fleksibilitas ukuran data, namun memiliki kekurangan pada operasi penghapusan karena membutuhkan pergeseran elemen.
+# E. Link Youtube
