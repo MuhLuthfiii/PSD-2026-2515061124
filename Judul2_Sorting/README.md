@@ -150,3 +150,6 @@ Setelah semua data dimasukkan, program akan menampilkan daftar buku sesuai uruta
 Selanjutnya, program menjalankan proses pengurutan menggunakan insertion sort. Setelah proses selesai, data ditampilkan kembali, tetapi kali ini sudah dalam kondisi terurut berdasarkan tahun terbit, dari yang paling lama sampai yang paling baru.
 
 Kesimpulannya Program ini mengubah data yang awalnya acak jadi lebih rapi dan mudah dibaca. 
+
+# E. LINK YOUTUBE
+https://youtu.be/lvcnvFelMSE
