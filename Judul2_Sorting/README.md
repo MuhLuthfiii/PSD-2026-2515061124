@@ -130,3 +130,7 @@ Metode yang digunakan dalam program ini adalah insertion sort. Cara kerjanya cuk
     main()
 
   Kode ini memastikan bahwa fungsi main() dijalankan saat program dieksekusi.
+
+# D. OUTPUT PROGRAM
+<img width="496" height="252" alt="Screenshot 2026-05-04 183715" src="https://github.com/user-attachments/assets/617e1fc7-5de0-4614-b101-28d3042d0c8c" />
+
