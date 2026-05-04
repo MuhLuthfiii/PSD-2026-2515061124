@@ -1,9 +1,11 @@
 # A. JUDUL PROGRAM
-Pengurutan Buku sesuai tahun terbit
-# B. DESKRIPSI SINGKAT
-Program ini dibuat untuk mengelola data buku sederhana yang terdiri dari judul dan tahun terbit. Pengguna dapat memasukkan beberapa data buku, lalu program akan mengurutkan data tersebut berdasarkan tahun terbit, mulai dari yang paling lama sampai yang paling baru. Contoh penerapannya bisa ditemukan pada sistem katalog perpustakaan atau pengelolaan arsip buku.
+Pengurutan Buku Sesuai Tahun Terbit (Insertion Sort)
 
-Metode yang digunakan dalam program ini adalah insertion sort. Cara kerjanya cukup sederhana, yaitu dengan mengambil satu data, lalu membandingkannya dengan data sebelumnya dan menempatkannya di posisi yang sesuai. Proses ini dilakukan berulang sampai semua data tersusun rapi. Pada program ini, data tidak hanya berupa angka, tetapi berbentuk dictionary, sehingga proses pengurutan dilakukan berdasarkan nilai tahun terbit.
+# B. DESKRIPSI SINGKAT
+Program ini dibuat untuk mengelola data buku sederhana yang terdiri dari judul dan tahun terbit. Pengguna atau user dapat memasukkan beberapa data buku, lalu program akan mengurutkan data tersebut berdasarkan tahun terbit, mulai dari yang paling lama sampai yang paling baru. Contoh penerapannya bisa ditemukan pada sistem katalog perpustakaan atau pengelolaan arsip buku.
+
+Metode yang digunakan dalam program ini adalah insertion sort. Cara kerjanya sederhana, yaitu dengan mengambil satu data, lalu membandingkannya dengan data sebelumnya dan menempatkannya di posisi yang sesuai. Proses ini dilakukan berulang sampai semua data tersusun rapi. Pada program ini, data tidak hanya berupa angka, tetapi berbentuk sebuah dictionary, sehingga proses pengurutan dilakukan berdasarkan nilai tahun terbit.
+
 # C. SOURCE CODE
 <img width="1372" height="1888" alt="code2" src="https://github.com/user-attachments/assets/76bacb9e-ee12-4193-bc7a-ba69d2ee29e8" />
 
@@ -131,6 +133,20 @@ Metode yang digunakan dalam program ini adalah insertion sort. Cara kerjanya cuk
 
   Kode ini memastikan bahwa fungsi main() dijalankan saat program dieksekusi.
 
+  
+
+
 # D. OUTPUT PROGRAM
 <img width="496" height="252" alt="Screenshot 2026-05-04 183715" src="https://github.com/user-attachments/assets/617e1fc7-5de0-4614-b101-28d3042d0c8c" />
 
+
+
+# Penjelasan Output
+Output dari program ini menunjukkan alur proses mulai dari input data sampai hasil pengurutan. Di awal, pengguna diminta memasukkan jumlah buku yang ingin didata. Kalau yang dimasukkan bukan angka, program akan langsung memberi pesan kesalahan dan berhenti, jadi tidak terjadi error di bagian selanjutnya.
+
+Setelah itu, pengguna diminta memasukkan data buku satu per satu, yaitu judul dan tahun terbit. Kalau saat memasukkan tahun terjadi kesalahan, misalnya mengetik huruf, program akan memberi peringatan dan meminta input ulang sampai benar. Dengan cara ini, data yang masuk tetap sesuai dan program bisa berjalan dengan lancar.
+Setelah semua data dimasukkan, program akan menampilkan daftar buku sesuai urutan input. Di tahap ini, data masih belum diurutkan, jadi tampilannya mengikuti urutan saat dimasukkan oleh pengguna.
+
+Selanjutnya, program menjalankan proses pengurutan menggunakan insertion sort. Setelah proses selesai, data ditampilkan kembali, tetapi kali ini sudah dalam kondisi terurut berdasarkan tahun terbit, dari yang paling lama sampai yang paling baru.
+
+Kesimpulannya Program ini mengubah data yang awalnya acak jadi lebih rapi dan mudah dibaca. 
