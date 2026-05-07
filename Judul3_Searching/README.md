@@ -117,3 +117,6 @@ Selanjutnya program menjalankan proses insertion sort untuk mengurutkan data ber
 Program kemudian meminta pengguna memasukkan judul buku yang ingin dicari. Proses pencarian dilakukan menggunakan sequential search sentinel dengan memeriksa data satu per satu sampai buku ditemukan. Pada contoh di atas, buku berjudul “Python” berhasil ditemukan pada indeks ke-2 sehingga program menampilkan informasi judul dan tahun terbit buku tersebut.
 
 Jika buku yang dicari tidak tersedia, program akan menampilkan pesan bahwa buku tidak terdaftar dan pengguna diminta melakukan pencarian ulang. Hal ini menunjukkan bahwa program sudah mampu menjalankan proses sorting dan searching dengan baik tanpa mengalami error.
+
+# E. Link Youtube
+https://youtu.be/3IVDuCYOamY
