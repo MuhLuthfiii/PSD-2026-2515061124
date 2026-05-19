@@ -118,8 +118,15 @@ Program memiliki beberapa fitur utama seperti Menambahkan antrean pasien, Melaya
 
   Bagian ini digunakan agar program utama dapat dijalankan ketika file Python dieksekusi.
 
-# D. Penjelasan Output
+# D. Outuput Program
+<img width="323" height="163" alt="Screenshot 2026-05-19 224837" src="https://github.com/user-attachments/assets/1fea4155-5586-454a-908a-b6e52cd34d6f" />
+<img width="461" height="162" alt="Screenshot 2026-05-19 224846" src="https://github.com/user-attachments/assets/cfcc8cf8-e3d5-48af-89f9-d19a5d2a67d1" />
+<img width="222" height="192" alt="Screenshot 2026-05-19 224904" src="https://github.com/user-attachments/assets/20f4e0d1-18df-4385-847f-7f0e84d709af" />
+<img width="295" height="141" alt="Screenshot 2026-05-19 224918" src="https://github.com/user-attachments/assets/cbeac8ae-3519-43e6-be01-b571c6b98cea" />
+<img width="293" height="147" alt="Screenshot 2026-05-19 224927" src="https://github.com/user-attachments/assets/135dac07-e328-4f8c-8738-697cc7c64c77" />
 
+
+# Penjelasan Output
 Saat program dijalankan, pengguna akan melihat menu utama sistem antrean BPJS yang terdiri dari beberapa pilihan, seperti menambahkan pasien, memanggil pasien, menampilkan antrean, dan mengecek kondisi antrean.
 
 Ketika pengguna memilih menu tambah antrean pasien, program akan meminta nama pasien yang ingin mengambil nomor antrean BPJS. Nama pasien tersebut kemudian disimpan ke dalam Queue sesuai urutan kedatangan.
