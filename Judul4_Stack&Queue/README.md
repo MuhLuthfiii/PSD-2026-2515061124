@@ -138,3 +138,6 @@ Saat menu tampilkan antrean dipilih, program akan menampilkan seluruh daftar pas
 Ketika menu panggil pasien dijalankan, program akan mengambil data pasien paling depan dari Queue. Proses ini menunjukkan bahwa Queue bekerja menggunakan prinsip FIFO (First In First Out), yaitu pasien yang datang lebih awal akan mendapatkan pelayanan lebih dahulu dibanding pasien yang datang setelahnya.
 
 Apabila seluruh antrean sudah selesai dilayani, maka program akan menampilkan pesan bahwa antrean BPJS kosong. Dengan demikian, program berhasil menerapkan konsep Queue dalam simulasi sistem antrean pelayanan BPJS secara sederhana dan teratur.
+
+# E. Link Youtube
+https://youtu.be/lpSRmdC1uSU
