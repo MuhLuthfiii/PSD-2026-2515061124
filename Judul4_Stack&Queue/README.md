@@ -8,7 +8,7 @@ Program memiliki beberapa fitur utama seperti Menambahkan antrean pasien, Melaya
 
 
 # C. Source Code
-<img width="1494" height="4054" alt="code" src="https://github.com/user-attachments/assets/bb235316-b767-44d2-bfb7-fa2f514e4c40" />
+<img width="1508" height="4206" alt="code" src="https://github.com/user-attachments/assets/3b452eb7-c4b0-46a4-a880-d218f3a458e9" />
 
 # Penjelasan Source Code
 
