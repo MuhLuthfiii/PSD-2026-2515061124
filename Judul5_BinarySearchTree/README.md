@@ -8,7 +8,8 @@ Program ini dibuat untuk membantu pengelolaan data kendaraan pada area parkir me
 Penggunaan BST membuat proses pencarian kendaraan menjadi lebih cepat dibanding pencarian biasa. Data kendaraan akan disusun secara otomatis berdasarkan nilainya. Nomor kendaraan yang lebih kecil ditempatkan di sebelah kiri node, sedangkan nomor yang lebih besar ditempatkan di sebelah kanan node. Dengan susunan seperti ini, data menjadi lebih rapi dan mudah dikelola.
 
 # C. Source Code
-<img width="1432" height="5080" alt="code" src="https://github.com/user-attachments/assets/e57c5696-5e38-4d27-8409-7b4725631f51" />
+<img width="1432" height="5194" alt="code" src="https://github.com/user-attachments/assets/07396e79-7d18-4d3f-92f6-d2e9c004d324" />
+
 
 # Penjelasan Kode
 # 1. Class Node
@@ -250,5 +251,16 @@ Penggunaan BST membuat proses pencarian kendaraan menjadi lebih cepat dibanding 
 <img width="238" height="146" alt="Screenshot 2026-05-26 212131" src="https://github.com/user-attachments/assets/7586f513-f8f9-4736-ad70-1ea8c2728fd5" />
 
 # Penjelasan Output
+Pada output program, petugas parkir memasukkan beberapa nomor kendaraan yang masuk ke area parkir, yaitu 2789, 2456, 4016, dan 6972. Setelah data dimasukkan, sistem langsung menyusun data sesuai aturan Binary Search Tree. Nomor yang lebih kecil ditempatkan di sebelah kiri node, sedangkan nomor yang lebih besar ditempatkan di sebelah kanan.
+
+Saat menu “Tampilkan Kendaraan” dipilih, sistem menampilkan seluruh nomor kendaraan secara urut dari kecil ke besar, yaitu 2456, 2789, 4016, 6972. Hal ini dilakukan menggunakan traversal inorder pada BST.
+
+Kemudian petugas mencoba mencari kendaraan dengan nomor 4016 dan sistem berhasil menemukannya. Karena BST menyusun data secara terstruktur, proses pencarian menjadi lebih cepat dibanding harus memeriksa data satu per satu.
+
+Selanjutnya kendaraan dengan nomor 2456 keluar dari area parkir sehingga datanya dihapus dari sistem. Setelah data ditampilkan kembali, daftar kendaraan berubah menjadi 2789, 4016, dan 6972. Sistem tetap mempertahankan susunan data agar tetap rapi dan terurut.
+
+Dan yang terakhir, ketika petugas memilih menu selesai, maka program secara otomatis akan berhenti.
+
+# E. Link Youtube
 
 
