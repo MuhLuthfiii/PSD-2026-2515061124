@@ -262,5 +262,6 @@ Selanjutnya kendaraan dengan nomor 2456 keluar dari area parkir sehingga datanya
 Dan yang terakhir, ketika petugas memilih menu selesai, maka program secara otomatis akan berhenti.
 
 # E. Link Youtube
+https://youtu.be/w0Uc0Uq3Hx4
 
 
